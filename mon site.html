@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Safi FatimaEzzahra </title>
+<meta charset="UTF-8"/>
+
+</head>
+<body>
+<style type="text/css">
+body,html,*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+#slider{
+	background-color:#CCC;
+	width:100%;
+	height:500px;
+	position:relative;
+}
+#img1{
+	width:100%;
+	height:550px;
+	position:absolute;
+}
+/*----style du titre---*/
+div.titre{
+	background: red;
+	text-align:center;
+	color: #F7F6F6;
+    padding:30px;
+	position: absolute;
+	top:45%;
+}
+.titre h1{
+	font-size: 40px;
+}
+
+/*------mon menu------*/
+#menu{
+	background:#333;
+	position:sticky;
+	top:0;
+	overflow:hidden;
+}
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:#FFF333
+}
+li{ float:left;
+    color:white;
+	text-align:center;
+	padding: 14px 16px;
+}
+	li:hover {
+  color: red;
+}
+	/*----contenu----*/
+	#contenu{
+		width:90%;
+		margin-left:auto;
+		margin-right:auto;
+		border-bottom-width:0px;
+		padding-left:0px;
+		padding-top:20px;
+		padding-right:0px;
+		padding-bottom:0px;
+	}
+ .titre-partie{
+	 font-size:26px;
+	 width:90%;
+	 margin-top:20%;
+	 color:#F41B05;
+	 font-weight:bold;
+	 text-transform:uppercase;
+     padding:20px;}
+ p{
+	 text-align:justify;
+	 line-height:24px;
+	 margin-top:30px;
+	 margin-bottom:15px;
+	 color:#313030;
+ }
+ table, th, td {
+  border:1px solid black;
+}
+th{
+	background-color:#FFF333;
+	color: red;
+}
+.fin{
+	  display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+	
+	
+	</style>
+<script>
+var cptimage=1;
+var totimage=4;
+ function sliderAuto(){
+     var image=document.getElementById('img1');
+	 cptimage=cptimage+1;
+	 image.src="image"+cptimage+".jpg";
+	 if(cptimage >= totimage)
+	     {  cptimage=1; }
+     if(cptimage < 1)
+	   { cptimage=totimage; }}
+window.setInterval(sliderAuto,2000);
+</script>
+<div id="slider">
+
+    <img src="image1.jpg" id="img1">
+	
+	<div class="titre">
+	<i><u><h2> Apprendre de la  <h2> <h1><b> Conjugaison<b><h1></u></i>
+</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<!----mon menu----->
+<div id="menu">
+  <ul>
+  <u><i>
+	 <li>Pronoms personnels</li>
+	 <li>Les voix </li>
+	 <li>Les temps</li>
+	 <li>Les groupes des verbes</li>
+	 <li>exercices</li>
+	 </u></i>
+</ul>
+</div>
+<div id="contenu">
+   <div class="titre-partie"><u><i>Les pronoms personnels:</div></u></i>
+   <p><style="color:#2ECC71"> Les pronoms personnels sujets sont :</style><br>
+ je – tu – il / elle – nous – vous – ils / elles </p>
+<b class="titre-partie"><u><i> Les voix: </b></u></i>
+ </p><font color="#2ECC71"> La voix active = </font>Le sujet fait l'action.   (ex. : Pierre mange une pomme.) <br> 
+
+<font color="#2ECC71">La voix passive = </font>Le sujet subit l'action.    (ex. : La pomme est mangée par Pierre.)<br>
+
+<b class="titre-partie"><u><i> Les temps: </b></u></i><br><br>
+ <table style="width:100%">
+    <tr>
+	   <b><th> Les temps simples</th><b>
+	   <th> les temps composes</th>
+	</tr>
+	<tr>
+	   <td> Indicatif présent</td>
+       <td> Indicatif passé composé</td>
+    </tr>          
+	 <tr>
+	   <td>Indicatif imparfait</td>
+      <td>Indicatif plus-que-parfait</td>
+	  </tr>
+	  <tr>
+	    <td>Indicatif passé simple</td>
+        <td>Indicatif passé antérieur<td>
+      </tr>
+       <tr> 
+		 <td>Indicatif futur simple</td>
+         <td>Indicatif futur antérieur</td>
+	   </tr>
+       <tr>
+          <td>Subjonctif présent</td>
+          <td>Subjonctif passé</td>
+       </tr>
+	   <tr>
+          <td>Subjonctif imparfait</td>
+          <td> Subjonctif plus-que-parfait</td>
+	   </tr>
+       <tr>
+           <td>Conditionnel présent</td>
+            <td>Conditionnel passé</td>
+        </tr>
+    </table>
+	<b class="titre-partie"><u><i> Les groupes des verbes: </b></u></i><br>
+	  <p><font color="#2ECC71 ">a) Les auxiliaires : </font>"etre" et "avoir".</p>
+	  <p><font color="#2ECC71 ">b) Les verbes du premier groupe :</font></p>
+	  <p>Tous les verbes se terminant par<font color="#CF5285"> ER</font> sauf le verbe<font color="#CF5285"> "aller"</font>, qui est irrégulier.<br>
+         Pour les conjuguer, vous mettrez le radical + les terminaisons du temps auquel vous le conjuguez<br>
+		    <font color="#CF5285">exemple:</font> Le verbe CHANTER au present:<br>
+			JE CHANT<font color="#CF5285">E</font><br>
+			TU CHANT<font color="#CF5285">ES</font><br>
+			IL/ELLE CHANT<font color="#CF5285">E</font><br>
+			NOUS CHANT<font color="#CF5285">ONS</font><br>
+			VOUS CHANT<font color="#CF5285">EZ</font><br>
+			ILS/ELLES CHANT<font color="#CF5285">ENT</font></p>
+	   <p><font color="#2ECC71 ">c) Les verbes du deuxième groupe :</font></P>
+	   <p>Tous les verbes se terminant par<font color="#CF5285"> -IR </font>et se terminant par<font color="#CF5285"> -ISSONS</font>
+à la 1ere  personne du pluriel au présent de l'indicatif.<br>
+Pour les conjuguer, vous mettrez le radical + les terminaisons du temps auquel vous le conjuguez.<br>
+  <font color="#CF5285">exemple:</font>Le verbe FINIR au present:<br>
+           JE FIN<font color="#CF5285">IS</font><br>
+			TU FIN<font color="#CF5285">IS</font><br>
+			IL/ELLE FIN<font color="#CF5285">IT</font><br>
+			NOUS FIN<font color="#F41B05">ISSONS</font><br>
+			VOUS FIN<font color="#CF5285">ISSEZ</font><br>
+			ILS/ELLES FIN<font color="#CF5285">ISSENT</font</p>
+	<p><font color="#2ECC71 ">d) Les verbes du troisième groupe :</font></P>
+	<p>Le 3e groupe comprend tous les verbes dits <font color="#CF5285">« irréguliers »</font> qui ne sont ni dans le 1er groupe ni dans le 2e groupe, ainsi que le verbe aller.<br>
+
+On peut classer les verbes de ce groupe selon leurs terminaisons :<br>
+- Les verbes en<font color="#FD3F92"> -ir</font> qui ne sont pas du 2e groupe, comme<font color="#CF5285"> courir, cueillir, mourir, ouvrir, offrir, etc.</font><br>
+- Les verbes en<font color="#FD3F92"> -oir </font>comme <font color="#CF5285">voir, savoir, pouvoir, etc.</font><br>
+- Les verbes en<font color="#FD3F92"> -re</font> comme <font color="#CF5285">attendre, prendre, mettre, etc.</font><br>
+         <font color="#CF5285">exemple:</font>Le verbe ALLER au present:<br>
+		    JE VAIS<br>
+			TU VAS <br>
+			IL/ELLE VA <br>
+			NOUS ALLONS <br>
+			VOUS ALLEZ <br>
+			ILS/ELLES VONT <br></p>
+			<b class="titre-partie"><u><i> Exercices afin de pratiquer: </b></u></i><br>
+		<p><font color="#2ECC71 ">Exercice 1:</font></P>
+		<!-----question11---->
+		<p> Trouvez le pronom personnel sujet:</p>
+<form action="">
+<input type="radio"  value="je" name="ex11" onClick="document.getElementById('a').innerHTML=' c est faux :(  la reponse juste est vous'">je 
+<input type="radio" value="vous" name="ex11" onClick="document.getElementById('a').innerHTML=' Bravo :)'">vous
+<input type="radio"  value="elles" name="ex11" onClick="document.getElementById('a').innerHTML=' c est faux :(  la reponse juste est vous'">elles
+
+ <font color="#F9DE17"> mangez du chocolat </font>
+  <p id="a"> correction </p>
+</form>
+  <!------question12--->
+<form action="">
+<input type="radio"  value="elle" name="ex12" onClick="document.getElementById('b').innerHTML=' Bravo :)'">elle
+<input type="radio" value="nous" name="ex12" onClick="document.getElementById('b').innerHTML=' c est faux :(  la reponse juste est elle'">nous
+<input type="radio"  value="ils" name="ex12" onClick="document.getElementById('b').innerHTML=' c est faux :(  la reponse juste est elle'">ils
+<font color="#F9DE17"> aime communiquer </font>
+  <p id="b"> correction </p>
+</form>
+<!----exercice2--->
+  <p><font color="#2ECC71 ">Exercice 2:</font></P>     
+  <p> voix active ou vois passive? </p>
+  <!----question21--->
+  <form>
+<input type="radio"  value="voix passive" name="ex21" onClick="document.getElementById('c').innerHTML=' c est faux :(  la reponse juste est voix active'">voix passive
+<input type="radio" value="voix active" name="ex21" onClick="document.getElementById('c').innerHTML=' Bravo :)'">voix active
+<font color="#F9DE17"> Salma déguste son repas. </font>
+<p id="c"> correction</p>
+</form>
+<!----questin22--->
+<form>
+<input type="radio"  value="voix active" name="ex22" onClick="document.getElementById('d').innerHTML=' c est faux :(  la reponse juste est voix passive'">voix active
+<input type="radio" value="voix passive" name="ex22" onClick="document.getElementById('d').innerHTML=' Bravo :)'">voix passive
+  <font color="#F9DE17">Le chien est lavé par Adam.  </font>
+<p id="d">correction</p>
+</form>
+<!-----Exercice3--->
+  <p><font color="#2ECC71 ">Exercice 3:</font></P> 
+  <p>Quel est le groupe des verbes?</p>
+  <!---question31--->
+  <form>
+<input type="radio"  value="1er groupe" name="ex31" onClick="document.getElementById('e').innerHTML='c est faux :(  la reponse juste est 3eme groupe '">1er groupe
+<input type="radio" value="2eme groupe" name="ex31" onClick="document.getElementById('e').innerHTML=' c est faux :(  la reponse juste est 3eme groupe'">2eme groupe
+<input type="radio"  value="3eme groupe" name="ex31" onClick="document.getElementById('e').innerHTML=' Bravo :)'">3eme groupe
+  <font color="#F9DE17">Le chat fait du bruit.  </font>
+<p id="e">correction</p>
+</form>
+<!----question32--->
+   <form>
+<input type="radio"  value="1er groupe" name="ex32" onClick="document.getElementById('f').innerHTML='c est faux :(  la reponse juste est 2eme groupe'">1er groupe
+<input type="radio" value="2eme groupe" name="ex32" onClick="document.getElementById('f').innerHTML='Bravo:)'">2eme groupe
+<input type="radio"  value="3eme groupe" name="ex32" onClick="document.getElementById('f').innerHTML=' c est faux :(  la reponse juste est 2eme groupe'">3eme groupe
+  <font color="#F9DE17">Nous choisissons une couleur.  </font>
+<p id="f">correction</p>
+ </form><br>
+ <img class="fin" src="bon courage.jpg">
+</body>
+</html>
